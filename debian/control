@@ -1,0 +1,12 @@
+Source: ros-groovy-zeroconf-avahi-suite
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), 
+Homepage: http://www.ros.org/wiki/zeroconf_avahi_suite
+Standards-Version: 3.9.2
+
+Package: ros-groovy-zeroconf-avahi-suite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-zeroconf-avahi,ros-groovy-zeroconf-avahi-demos,ros-groovy-zeroconf-msgs
+Description: Suite of packages supporing the avahi implementation of zeroconf for ros.
