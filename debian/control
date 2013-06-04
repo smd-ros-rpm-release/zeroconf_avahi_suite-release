@@ -1,0 +1,12 @@
+Source: ros-hydro-zeroconf-avahi-demos
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-zeroconf-avahi
+Homepage: http://wiki.ros.org/zeroconf_avahi_demos
+Standards-Version: 3.9.2
+
+Package: ros-hydro-zeroconf-avahi-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, avahi-daemon, ros-hydro-zeroconf-avahi
+Description: Several demos and launch-tests for the avahi based zero-configuration.
