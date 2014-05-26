@@ -1,0 +1,12 @@
+Source: ros-indigo-zeroconf-avahi-suite
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://www.ros.org/wiki/zeroconf_avahi_suite
+Standards-Version: 3.9.2
+
+Package: ros-indigo-zeroconf-avahi-suite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-zeroconf-avahi, ros-indigo-zeroconf-avahi-demos
+Description: Suite of packages supporing the avahi implementation of zeroconf for ros.
